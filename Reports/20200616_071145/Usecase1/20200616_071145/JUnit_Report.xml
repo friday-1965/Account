@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Usecase1" time="41.766" tests="2" failures="0" errors="0">
+   <testsuite name="Usecase1" tests="2" failures="0" errors="0" time="41.766" timestamp="2020-06-16 07:11:47" hostname="WIN10 - DESKTOP-0NVCT6K" id="Test Suites/Usecase1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WIN10\\git\\Account\\Reports\\20200616_071145\\Usecase1\\20200616_071145"/>
+         <property name="logFiles" value="C:\\Users\\WIN10\\git\\Account\\Reports\\20200616_071145\\Usecase1\\20200616_071145\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WIN10 - DESKTOP-0NVCT6K"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+         <property name="browser" value="Chrome 83.0.4103.97"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="db1e2f7916e49e4bcc07da45f8b52057"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test Case 1" time="10.637" classname="Test Cases/Test Case 1" status="PASSED">
+         <system-out><![CDATA[2020-06-16 07:11:47 - [TEST_CASE][PASSED] - Test Cases/Test Case 1: Test Cases/Test Case 1
+
+2020-06-16 07:11:47 - [TEST_STEP][PASSED] - openBrowser("http://crmc.opencloud.digital:64216/index.php"): Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-16 07:11:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-06-16 07:11:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-06-16 07:11:53 - [MESSAGE][PASSED] - Browser is opened with url: 'http://crmc.opencloud.digital:64216/index.php'
+
+2020-06-16 07:11:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-06-16 07:11:55 - [MESSAGE][PASSED] - Current window maximized
+
+2020-06-16 07:11:55 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_User name_username"), findTestData("D1").getValue(1, 1)): Text 'Admin' is set on object 'Object Repository/Login/input_User name_username'
+
+2020-06-16 07:11:56 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Login/input_User name_username'
+
+2020-06-16 07:11:56 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Password_password"), findTestData("D1").getValue(2, 1)): Text '1qaz2WSX3edc ' is set on object 'Object Repository/Login/input_Password_password'
+
+2020-06-16 07:11:56 - [MESSAGE][PASSED] - Text '1qaz2WSX3edc ' is set on object 'Object Repository/Login/input_Password_password'
+
+2020-06-16 07:11:56 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Sign in")): Object: 'Object Repository/Login/button_Sign in' is clicked on
+
+2020-06-16 07:11:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/10" time="30.329" classname="Test Cases/10" status="PASSED">
+         <system-out><![CDATA[2020-06-16 07:11:58 - [TEST_CASE][PASSED] - Test Cases/10: Test Cases/10
+
+2020-06-16 07:11:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home/strong_Accounts")): Object: 'Object Repository/Page_Home/strong_Accounts' is clicked on
+
+2020-06-16 07:12:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/strong_Accounts' is clicked on
+
+2020-06-16 07:12:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_Accounts/strong_Add Account")): Object: 'Object Repository/Page_Accounts/strong_Add Account' is clicked on
+
+2020-06-16 07:12:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Accounts/strong_Add Account' is clicked on
+
+2020-06-16 07:12:06 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Accounts/input__accountname"), findTestData("D2").getValue(1, 1)): Text 'ภูมิพัจน์' is set on object 'Object Repository/Page_Accounts/input__accountname'
+
+2020-06-16 07:12:07 - [MESSAGE][PASSED] - Text 'ภูมิพัจน์' is set on object 'Object Repository/Page_Accounts/input__accountname'
+
+2020-06-16 07:12:07 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Accounts/input__accENG"), findTestData("D2").getValue(2, 1)): Text 'Pumipat' is set on object 'Object Repository/Page_Accounts/input__accENG'
+
+2020-06-16 07:12:08 - [MESSAGE][PASSED] - Text 'Pumipat' is set on object 'Object Repository/Page_Accounts/input__accENG'
+
+2020-06-16 07:12:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_Accounts/acc status")): Object: 'Object Repository/Page_Accounts/acc status' is clicked on
+
+2020-06-16 07:12:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Accounts/acc status' is clicked on
+
+2020-06-16 07:12:08 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Accounts/input acc status"), "Prospect"): Text 'Prospect' is set on object 'Object Repository/Page_Accounts/input acc status'
+
+2020-06-16 07:12:09 - [MESSAGE][PASSED] - Text 'Prospect' is set on object 'Object Repository/Page_Accounts/input acc status'
+
+2020-06-16 07:12:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Accounts/input acc status"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Accounts/input acc status'
+
+2020-06-16 07:12:10 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Accounts/input acc status'
+
+2020-06-16 07:12:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_Accounts/custome segment")): Object: 'Object Repository/Page_Accounts/custome segment' is clicked on
+
+2020-06-16 07:12:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Accounts/custome segment' is clicked on
+
+2020-06-16 07:12:10 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Accounts/input customer segment"), findTestData("D2").getValue(3, 1)): Text 'SME' is set on object 'Object Repository/Page_Accounts/input customer segment'
+
+2020-06-16 07:12:11 - [MESSAGE][PASSED] - Text 'SME' is set on object 'Object Repository/Page_Accounts/input customer segment'
+
+2020-06-16 07:12:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Accounts/input customer segment"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Accounts/input customer segment'
+
+2020-06-16 07:12:12 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Accounts/input customer segment'
+
+2020-06-16 07:12:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_Accounts/company level")): Object: 'Object Repository/Page_Accounts/company level' is clicked on
+
+2020-06-16 07:12:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Accounts/company level' is clicked on
+
+2020-06-16 07:12:12 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Accounts/input company level"), findTestData("D2").getValue(4, 1)): Text 'Head Office' is set on object 'Object Repository/Page_Accounts/input company level'
+
+2020-06-16 07:12:13 - [MESSAGE][PASSED] - Text 'Head Office' is set on object 'Object Repository/Page_Accounts/input company level'
+
+2020-06-16 07:12:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Accounts/input company level"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Accounts/input company level'
+
+2020-06-16 07:12:14 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Accounts/input company level'
+
+2020-06-16 07:12:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_Accounts/JP")): Object: 'Object Repository/Page_Accounts/JP' is clicked on
+
+2020-06-16 07:12:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Accounts/JP' is clicked on
+
+2020-06-16 07:12:14 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Accounts/input JP"), findTestData("D2").getValue(5, 1)): Text 'Yes' is set on object 'Object Repository/Page_Accounts/input JP'
+
+2020-06-16 07:12:15 - [MESSAGE][PASSED] - Text 'Yes' is set on object 'Object Repository/Page_Accounts/input JP'
+
+2020-06-16 07:12:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Accounts/input JP"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Accounts/input JP'
+
+2020-06-16 07:12:15 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Accounts/input JP'
+
+2020-06-16 07:12:15 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Accounts/input__Branch"), findTestData("D2").getValue(7, 1)): Text '00001' is set on object 'Object Repository/Page_Accounts/input__Branch'
+
+2020-06-16 07:12:17 - [MESSAGE][PASSED] - Text '00001' is set on object 'Object Repository/Page_Accounts/input__Branch'
+
+2020-06-16 07:12:17 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Accounts/input__Purchasing"), findTestData("D2").getValue(6, 1)): Text 'จัดซื้อแยกLocalized Purchasing' is set on object 'Object Repository/Page_Accounts/input__Purchasing'
+
+2020-06-16 07:12:18 - [MESSAGE][PASSED] - Text 'จัดซื้อแยกLocalized Purchasing' is set on object 'Object Repository/Page_Accounts/input__Purchasing'
+
+2020-06-16 07:12:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_Accounts/company status")): Object: 'Object Repository/Page_Accounts/company status' is clicked on
+
+2020-06-16 07:12:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Accounts/company status' is clicked on
+
+2020-06-16 07:12:18 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Accounts/input company status"), findTestData("D2").getValue(8, 1)): Text 'Active' is set on object 'Object Repository/Page_Accounts/input company status'
+
+2020-06-16 07:12:20 - [MESSAGE][PASSED] - Text 'Active' is set on object 'Object Repository/Page_Accounts/input company status'
+
+2020-06-16 07:12:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Accounts/input company status"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Accounts/input company status'
+
+2020-06-16 07:12:20 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Accounts/input company status'
+
+2020-06-16 07:12:20 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Accounts/input__phone"), findTestData("D2").getValue(9, 1)): Text '0945839838' is set on object 'Object Repository/Page_Accounts/input__phone'
+
+2020-06-16 07:12:21 - [MESSAGE][PASSED] - Text '0945839838' is set on object 'Object Repository/Page_Accounts/input__phone'
+
+2020-06-16 07:12:21 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Accounts/address"), findTestData("D2").getValue(10, 1)): Text 'Chaing Mai University' is set on object 'Object Repository/Page_Accounts/address'
+
+2020-06-16 07:12:22 - [MESSAGE][PASSED] - Text 'Chaing Mai University' is set on object 'Object Repository/Page_Accounts/address'
+
+2020-06-16 07:12:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_Accounts/searchZ")): Object: 'Object Repository/Page_Accounts/searchZ' is clicked on
+
+2020-06-16 07:12:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Accounts/searchZ' is clicked on
+
+2020-06-16 07:12:22 - [TEST_STEP][PASSED] - switchToWindowTitle("ZONE"): Switched to window with title: 'ZONE'
+
+2020-06-16 07:12:24 - [MESSAGE][PASSED] - Switched to window with title: 'ZONE'
+
+2020-06-16 07:12:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_ZONE/a_270207")): Object: 'Object Repository/Page_ZONE/a_270207' is clicked on
+
+2020-06-16 07:12:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ZONE/a_270207' is clicked on
+
+2020-06-16 07:12:25 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2020-06-16 07:12:27 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Accounts/Tax no"), findTestData("D2").getValue(12, 1)): Text '0121231234' is set on object 'Object Repository/Page_Accounts/Tax no'
+
+2020-06-16 07:12:27 - [MESSAGE][PASSED] - Text '0121231234' is set on object 'Object Repository/Page_Accounts/Tax no'
+
+2020-06-16 07:12:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_Accounts/button_Save")): Object: 'Object Repository/Page_Accounts/button_Save' is clicked on
+
+2020-06-16 07:12:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Accounts/button_Save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-16 07:11:47 - [TEST_SUITE][PASSED] - Usecase1: Test Cases/10]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
